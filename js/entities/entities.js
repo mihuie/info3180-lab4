@@ -68,6 +68,8 @@ game.PlayerEntity = me.Entity.extend( {
                 this.body.vel.y = -this.body.maxVel.y * me.timer.tick;
                 // set the jumping flag
                 this.body.jumping = true;
+                // play some audio
+                me.audio.play("jump");
             }
         }
         
@@ -113,6 +115,8 @@ game.PlayerEntity = me.Entity.extend( {
                     this.body.vel.y = -this.body.maxVel.y * me.timer.tick;
                     // set the jumping flag
                     this.body.jumping = true;
+                    // play some audio
+                    me.audio.play("stomp");
                 }
                 else {
                     // let's flicker in case we touched an enemy
@@ -145,7 +149,10 @@ game.CoinEntity = me.CollectableEntity.extend( {
      * colision handler
      */
     onCollision : function (response, other) {
-
+        
+        // play a "coin collected" sound
+        me.audio.play("cling");
+      
         //each coin values 250
         game.data.score += 250;
       
