@@ -145,6 +145,10 @@ game.CoinEntity = me.CollectableEntity.extend( {
      * colision handler
      */
     onCollision : function (response, other) {
+
+        //each coin values 250
+        game.data.score += 250;
+      
         //avoid further collision and delete it
         this.body.setCollisionMask(me.collision.types.NO_OBJECT);
 

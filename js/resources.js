@@ -13,6 +13,8 @@ game.resources = [
 	// the parallax background
 	{name: "area01_bkg0",         type:"image",	src: "data/img/area01_bkg0.png"},
 	{name: "area01_bkg1",         type:"image",	src: "data/img/area01_bkg1.png"},
+  // game font
+	{name: "32x32_font",          type:"image",	src: "data/img/font/32x32_font.png"},
 	/* 
 	 * Maps. 
  	 */
