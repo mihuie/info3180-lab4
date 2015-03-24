@@ -53,18 +53,18 @@
   </object>
  </objectgroup>
  <objectgroup color="#ff0000" name="collision">
-  <object id="6" x="68" y="293" width="126" height="13"/>
+  <object id="6" x="68" y="293" width="127" height="1"/>
   <object id="7" x="1" y="421" width="289" height="58"/>
   <object id="8" x="292" y="389" width="347" height="44"/>
   <object id="15" x="2" y="100" width="61" height="250"/>
   <object id="21" x="1" y="351" width="28" height="69"/>
   <object id="22" x="642" y="419" width="604" height="60"/>
   <object id="23" x="1249" y="2" width="30" height="478"/>
-  <object id="33" x="546" y="260" width="57" height="20"/>
-  <object id="34" x="703" y="323" width="66" height="14"/>
-  <object id="38" x="388" y="228" width="88" height="24"/>
-  <object id="39" x="259" y="197" width="59" height="30"/>
-  <object id="40" x="131" y="133" width="59" height="17"/>
+  <object id="33" type="platform" x="546" y="260" width="59" height="1"/>
+  <object id="34" type="platform" x="703" y="323" width="68" height="1"/>
+  <object id="38" type="platform" x="388" y="228" width="92" height="1"/>
+  <object id="39" type="platform" x="259" y="197" width="62" height="1"/>
+  <object id="40" type="platform" x="131" y="133" width="60" height="1"/>
   <object id="45" x="1" y="33" width="7" height="75"/>
  </objectgroup>
  <objectgroup color="#ffff00" name="Coin">
